@@ -1,0 +1,8 @@
+To run the notebook successfully, you will need a Python 3 environment (such as Jupyter Notebook, JupyterLab, or Google Colab) and a CUDA-capable GPU (the notebook metadata specifies an NVIDIA T4 GPU). The following third-party packages must be installed:
+numpy
+cupy (requires a CUDA-compatible version depending on your system, e.g., cupy-cuda12x)
+matplotlib
+(Note: The standard library module time is also used for performance benchmarking but does not require manual installation.)
+
+Installation Command:
+pip install numpy matplotlib cupy-cuda12x jupyter
